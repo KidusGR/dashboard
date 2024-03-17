@@ -17,7 +17,7 @@ components:
     properties: {}
     type: Link
 - name: label_1
-  properties: {text: Hello}
+  properties: {text: Dashboard}
   type: Label
   layout_properties: {slot: title}
 - name: sidebar
