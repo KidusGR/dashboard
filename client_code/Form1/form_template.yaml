@@ -12,3 +12,15 @@ components:
   properties: {}
   name: navbar_links
   layout_properties: {slot: nav-right}
+  components:
+  - name: logout
+    properties: {}
+    type: Link
+- name: label_1
+  properties: {text: Hello}
+  type: Label
+  layout_properties: {slot: title}
+- name: sidebar
+  properties: {}
+  type: ColumnPanel
+  layout_properties: {slot: left-nav}
