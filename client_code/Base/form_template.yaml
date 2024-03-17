@@ -1,0 +1,26 @@
+is_package: true
+container:
+  type: HtmlTemplate
+  properties: {html: '@theme:standard-page.html', visible: true, background: 'theme:Primary',
+    foreground: '', role: null}
+components:
+- name: sidebar
+  properties: {background: 'theme:Primary Container', foreground: ''}
+  type: ColumnPanel
+  layout_properties: {slot: left-nav}
+- name: title
+  properties: {text: '', icon: ''}
+  type: Label
+  layout_properties: {slot: title}
+  data_bindings: []
+- name: linear_panel_1
+  properties: {}
+  type: LinearPanel
+  layout_properties: {slot: nav-right}
+  components:
+  - name: logout_button
+    properties: {text: Logout, role: outlined-button, icon: 'fa:sign-out'}
+    type: Button
+    layout_properties: {}
+    event_bindings: {click: logout_button_click}
+custom_component: true

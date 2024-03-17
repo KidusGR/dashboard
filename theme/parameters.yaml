@@ -302,13 +302,13 @@ color_scheme:
       - {name: Primary Overlay 2, color: 'rgba(255, 181, 155, 0.08)'}
       - {name: Primary Overlay 3, color: 'rgba(255, 181, 155, 0.11)'}
   colors:
-  - {name: Primary, color: '#6750A4'}
-  - {name: Primary Container, color: '#EADDFF'}
-  - {name: On Primary, color: '#FFFFFF'}
-  - {name: On Primary Container, color: '#21005E'}
-  - {name: Secondary, color: '#625B71'}
-  - {name: Secondary Container, color: '#E8DEF8'}
-  - {name: On Secondary, color: '#FFFFFF'}
+  - {name: Primary, color: '#2b3542'}
+  - {name: Primary Container, color: '#5c6474'}
+  - {name: On Primary, color: '#525b64'}
+  - {name: On Primary Container, color: '#5c6c74'}
+  - {name: Secondary, color: '#8f949c'}
+  - {name: Secondary Container, color: '#949ca4'}
+  - {name: On Secondary, color: '#767e86'}
   - {name: On Secondary Container, color: '#1E192B'}
   - {name: Tertiary, color: '#7D5260'}
   - {name: Tertiary Container, color: '#FFD8E4'}
